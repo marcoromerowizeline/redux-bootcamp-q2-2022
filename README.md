@@ -23,7 +23,7 @@
 
 The purpose of this project is for you to demonstrate your knowledge acquired in the **Specialized Redux Bootcamp**.
 
-With this E-commerce project, you will have the opportunity to show your **React** skills by adding functionality and applying **Redux Toolkit**, the toolset for global state management that you have learned in this Bootcamp.
+With this E-commerce project, you will have the opportunity to show your [**React**](https://reactjs.org/docs/getting-started.html) skills by adding functionality and applying [**Redux Toolkit**](https://redux-toolkit.js.org/introduction/getting-started), the toolset for global state management that you have learned in this Bootcamp.
 
 Here you will find all the instructions to complete and deliver your **Redux Capstone Project**.
 
@@ -68,21 +68,37 @@ Before starting:
 
 ## Deliverables
 
+<table>
+<tr>
+<td>
+
 All deliverables are cumulative, and for each delivery:
 
-- Use **React Hooks** in your components.
-- Use **styled-components** for component styles or any other _CSS_ library or framework like **Material UI** or **Bootstrap**.
+- Use [**React Hooks**](https://reactjs.org/docs/hooks-intro.html) in your components.
+- Use [**styled-components**](https://styled-components.com/docs) for component styles or any other _CSS_ library or framework like [**Material UI**](https://mui.com/material-ui/getting-started/overview/) or [**Bootstrap**](https://react-bootstrap.github.io/getting-started/introduction).
 - Ensure that your application does not log warnings and errors in the browser console.
 - Create a _pull request_ (_PR_) for each _deliverable_ to merge into your _main_ **GitHub** branch.
 - Add your mentor as a reviewer of your _PRs._ Your mentor will review and leave feedback on your progress.
 
+</td>
+</tr>
+</table>
+
 ### Dates
+
+<table>
+<tr>
+<td>
 
 You must submit three deliverables on the following dates:
 
 1. The **first delivery** is before 10 AM (CST) on Monday, July 4th, 2022.
 1. The **second delivery** is before 10 AM (CST) on Monday, July 11th, 2022.
 1. The **third delivery** is before midnight (CST) on Friday, July 15th, 2022.
+
+</td>
+</tr>
+</table>
 
 ### First delivery
 
