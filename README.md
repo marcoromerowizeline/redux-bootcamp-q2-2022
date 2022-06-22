@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://academy.wizeline.com/">
     <img src="academylogo.png"
-         alt="Academy" style="height: 20px; border-radius: 4px">
+         alt="Academy" style="height: 18px; border-radius: 4px">
 </p>
 
 <p align="center">
@@ -33,6 +33,10 @@ Here you will find all the instructions to complete and deliver your **Redux Cap
 
 ## Project
 
+<table>
+<tr>
+<td>
+
 This repository contains the minimum structure of an E-commerce called **WizeStore** with three modules:
 
 1. Login
@@ -42,15 +46,25 @@ This repository contains the minimum structure of an E-commerce called **WizeSto
 Here is the [link](https://redux-shopping-cart-gules.vercel.app/login) to the demo application.
 <img width="960" alt="WizeStore" src="https://user-images.githubusercontent.com/88999796/175117974-122bcd92-21a8-4b08-8eab-6f536c1cd7c0.png">
 
+</td>
+</tr>
+</table>
 
 ## Instructions
 
+<table>
+<tr>
+<td>
 Before starting:
 
 1. Fork this repository to your **GitHub** account and make it a public repository.
 1. Invite your mentor as a contributor to your **GitHub** project.
 1. You can message your mentor to have 1:1 sessions, or you can use the [**Slack channel**](https://wizelineacademy.slack.com/archives/C03KCQ0CPDM) if you feel stuck, want to share your progress, or need some feedback.
 1. Get started with the requirements specified below.
+
+</td>
+</tr>
+</table>
 
 ## Deliverables
 
