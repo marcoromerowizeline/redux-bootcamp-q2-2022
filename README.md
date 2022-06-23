@@ -136,9 +136,9 @@ The following is the list of acceptance criteria (_AC_) and points for completin
 
 | **AC** | **Description** | **Points** |
 | :--- | :--- | ---: |
- 1 | :white_check_mark: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json). | 30 |
-| 2 | :white_check_mark: Your **Products** module displays your _CSS styles_ correctly. | 20 |
-| 3 | :white_check_mark: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality. | 50 |
+ 1 | :ballot_box_with_check: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json). | 30 |
+| 2 | :ballot_box_with_check: Your **Products** module displays your _CSS styles_ correctly. | 20 |
+| 3 | :ballot_box_with_check: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality. | 50 |
 
 ### Second delivery
 
@@ -189,14 +189,14 @@ The following is the list of acceptance criteria (_AC_) and points for completin
 
 | **AC** | **Description** | **Points** |
 | :--- | :--- | ---: |
-| 1 | :white_check_mark: Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file. | 10 |
-| 2 | :white_check_mark: Your **Cart** module displays your _CSS styles_ correctly. | 10 |
-| 3 | :white_check_mark: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_ and its _label_ "**Product details"**.<br>&nbsp;&nbsp;• The _quantity input_ and its label "**Quantity"**.<br>&nbsp;&nbsp;• The product _price_ and its _label_ "**Price"**.<br>&nbsp;&nbsp;• The _total_ amount and its _label_ "**Total"**.<br>&nbsp;&nbsp;• The "**Remove**" _button_ without functionality.| 15 |
-| 4 | :white_check_mark: The "**Quantity"** _input_ only allows positive numbers and affects the _total_ cost of the product, the total _items_, and the _total cost_ in the "**Summary"** section. | 10 |
-| 5 | :white_check_mark: For the "**Summary"** section, the following elements render correctly:<br>&nbsp;&nbsp;• The _heading_ with the text "**Summary".**<br>&nbsp;&nbsp;• The _total items_ in the cart and its label "**Items"**.<br>&nbsp;&nbsp;• The _total cost_ of the items in the cart and its label "**Total cost"**.<br>&nbsp;&nbsp;• The "**Checkout"** _button_ without functionality. | 15 |
-| 6 | :white_check_mark: Your **Login** module displays your _CSS styles_ correctly. | 10 |
-| 7 | :white_check_mark: Your **Login** module render correctly the following elements:<br>&nbsp;&nbsp;• The _heading_ with the text "**Welcome to the WizeStore!**".<br>&nbsp;&nbsp;• The _username input_ and its label "**Username**".<br>&nbsp;&nbsp;• The _user password input_ and its label "**Password**".<br>&nbsp;&nbsp;• The "**Login"** _button_. | 15 |
-| 8 | :white_check_mark: Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
+| 1 | :ballot_box_with_check: Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file. | 10 |
+| 2 | :ballot_box_with_check: Your **Cart** module displays your _CSS styles_ correctly. | 10 |
+| 3 | :ballot_box_with_check: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_ and its _label_ "**Product details"**.<br>&nbsp;&nbsp;• The _quantity input_ and its label "**Quantity"**.<br>&nbsp;&nbsp;• The product _price_ and its _label_ "**Price"**.<br>&nbsp;&nbsp;• The _total_ amount and its _label_ "**Total"**.<br>&nbsp;&nbsp;• The "**Remove**" _button_ without functionality.| 15 |
+| 4 | :ballot_box_with_check: The "**Quantity"** _input_ only allows positive numbers and affects the _total_ cost of the product, the total _items_, and the _total cost_ in the "**Summary"** section. | 10 |
+| 5 | :ballot_box_with_check: For the "**Summary"** section, the following elements render correctly:<br>&nbsp;&nbsp;• The _heading_ with the text "**Summary".**<br>&nbsp;&nbsp;• The _total items_ in the cart and its label "**Items"**.<br>&nbsp;&nbsp;• The _total cost_ of the items in the cart and its label "**Total cost"**.<br>&nbsp;&nbsp;• The "**Checkout"** _button_ without functionality. | 15 |
+| 6 | :ballot_box_with_check: Your **Login** module displays your _CSS styles_ correctly. | 10 |
+| 7 | :ballot_box_with_check: Your **Login** module render correctly the following elements:<br>&nbsp;&nbsp;• The _heading_ with the text "**Welcome to the WizeStore!**".<br>&nbsp;&nbsp;• The _username input_ and its label "**Username**".<br>&nbsp;&nbsp;• The _user password input_ and its label "**Password**".<br>&nbsp;&nbsp;• The "**Login"** _button_. | 15 |
+| 8 | :ballot_box_with_check: Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
 
 ### Third and last delivery
 
@@ -231,12 +231,12 @@ The following is the list of acceptance criteria (_AC_) and points for completin
 
 | **AC** | **Description** | **Points** |
 | :--- | :---- | ---: |
-| 1 | :white_check_mark: Your **Products** module fetches the [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/) | 15 |
-| 2 | :white_check_mark: Your project uses **Redux Toolkit** for its global state management. | 25 |
-| 3 | :white_check_mark: On the **Products** module, the **"Add to cart"** _buttons_ allow adding products to the **Cart** module. | 15 |
-| 4 | :white_check_mark: On the **Cart** module, the "**Quantity"** _input_ updates the **Redux** _store_ and affects the totals of that product and the "**Summary**" totals. | 15 |
-| 5 | :white_check_mark: On the **Cart** module, the "**Remove"** _buttons_ allow removing products from the **Cart** module and affect the "**Summary"** totals. | 15 |
-| 6 | :white_check_mark: On the **Cart** module, the "**Checkout"** _button_ displays the _API_ response on another page if there are items in the cart. | 15 |
+| 1 | :ballot_box_with_check: Your **Products** module fetches the [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/) | 15 |
+| 2 | :ballot_box_with_check: Your project uses **Redux Toolkit** for its global state management. | 25 |
+| 3 | :ballot_box_with_check: On the **Products** module, the **"Add to cart"** _buttons_ allow adding products to the **Cart** module. | 15 |
+| 4 | :ballot_box_with_check: On the **Cart** module, the "**Quantity"** _input_ updates the **Redux** _store_ and affects the totals of that product and the "**Summary**" totals. | 15 |
+| 5 | :ballot_box_with_check: On the **Cart** module, the "**Remove"** _buttons_ allow removing products from the **Cart** module and affect the "**Summary"** totals. | 15 |
+| 6 | :ballot_box_with_check: On the **Cart** module, the "**Checkout"** _button_ displays the _API_ response on another page if there are items in the cart. | 15 |
 
 ### Bonus
 
