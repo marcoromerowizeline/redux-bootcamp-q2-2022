@@ -1,4 +1,4 @@
-# Specialized Redux Bootcamp - Capstone Project
+# <h1 align="center">Specialized Redux Bootcamp - Capstone Project</h1>
 
 <p align="center">
     <a href="https://academy.wizeline.com/">
@@ -55,6 +55,7 @@ Here is the [link](https://redux-shopping-cart-gules.vercel.app/login) to the de
 <table>
 <tr>
 <td>
+    
 Before starting:
 
 1. Fork this repository to your **GitHub** account and make it a public repository.
@@ -77,18 +78,18 @@ All deliverables are cumulative, and for each delivery:
 - Use [**React Hooks**](https://reactjs.org/docs/hooks-intro.html) in your components.
 - Use [**styled-components**](https://styled-components.com/docs) for component styles or any other _CSS_ library or framework like [**Material UI**](https://mui.com/material-ui/getting-started/overview/) or [**Bootstrap**](https://react-bootstrap.github.io/getting-started/introduction).
 - Ensure that your application does not log warnings and errors in the browser console.
-- Create a _pull request_ (_PR_) for each _deliverable_ to merge into your _main_ **GitHub** branch.
+- Create a _pull request_ (_PR_) for each _deliverable_ to merge into your `main` **GitHub** branch.
 - Add your mentor as a reviewer of your _PRs._ Your mentor will review and leave feedback on your progress.
 
 </td>
 </tr>
 </table>
 
-### Dates
-
 <table>
 <tr>
 <td>
+
+### Dates
 
 You must submit three deliverables on the following dates:
 
@@ -100,26 +101,29 @@ You must submit three deliverables on the following dates:
 </tr>
 </table>
 
+<table>
+<tr>
+<td>
+
 ### First delivery
 
 In this assignment, you will create the **Products** module.
 
 #### Requirements
 
-1. Create a new branch with the name "_feat/deliverable1_" derived from "_main_" on your forked repository.
-1. Create the **Products** module** and fill it with data obtained from this [mock file](http://public/data/products.json)**.\*\*
+1. Create a new branch with the name `feat/deliverable1` derived from `main` on your forked repository.
+1. Create the **Products** module and fill it with data obtained from this [mock file](http://public/data/products.json).
+    Design your user interface (_UI_). You can base it on the layout proposed in this [demo](https://redux-shopping-cart-gules.vercel.app/products), or if you want, implement any other design, but include the following elements:
 
-Design your user interface (_UI_). You can base it on the layout proposed in this [demo](https://redux-shopping-cart-gules.vercel.app/products), or if you want, implement any other design, but include the following elements:
+    1. A grid of products, and for each element on the grid, show the following elements:
 
-1. A grid of products, and for each element on the grid, show the following elements:
+        - [x] One _image_ of the product.
+        - [x] The product _name_.
+        - [x] The first _category_.
+        - [x] The product _price_.
+        - [x] A _button_ without functionality with the text "**Add to cart"**.
 
-- One _image_ of the product.
-- The product _name_.
-- The first _category_.
-- The product _price_.
-- A _button_ without functionality with the text "**Add to cart"**.
-
-1. Deploy your app on **Netlify**, **Firebase**, **Heroku**, **GitHub Pages**, or any other hosting service you prefer.
+1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
 1. When you meet all _Acceptance Criteria_ (_AC)_ of this first deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
 
 #### Acceptance Criteria
@@ -127,10 +131,14 @@ Design your user interface (_UI_). You can base it on the layout proposed in thi
 The following is the list of _evaluation criteria_ for your first deliverable:
 
 | **Acceptance criteria** | **Description**                                                                                                                                                                                                                                                 | **Points for completed** |
-| :---------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------- |
-| 1                       | Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json).                                                                                                             | 30                       |
-| 2                       | Your **Products** module displays your _CSS styles_ correctly.                                                                                                                                                                                                  | 20                       |
-| 3                       | <p>For each product, the following elements render correctly:</p><p>A. One _image_ of the product.</p><p>B. The product _name_.</p><p>C. The first _category_.</p><p>D. The product _price_.</p><p>E. The "**Add to cart**" _button_ without functionality.</p> | 50                       |
+| :--- | :--- | ---: |
+ 1                       | :white_check_mark: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json).                                                                                                             | 30                       |
+| 2                       | :white_check_mark: Your **Products** module displays your _CSS styles_ correctly.                                                                                                                                                                                                  | 20                       |
+| 3                       | :white_check_mark: For each product, the following elements render correctly:<br><p></p><p>&nbsp;&nbsp;• One _image_ of the product.</p><p>&nbsp;&nbsp;• The product _name_.</p><p>&nbsp;&nbsp;• The first _category_.</p><p>&nbsp;&nbsp;• The product _price_.</p><p>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality.</p> | 50                       |
+
+</td>
+</tr>
+</table>
 
 ### Second delivery
 
