@@ -101,13 +101,13 @@ You must submit three deliverables on the following dates:
 </tr>
 </table>
 
-<table>
-<tr>
-<td>
-
 ### First delivery
 
 In this assignment, you will create the **Products** module.
+
+<table>
+<tr>
+<td>
 
 #### Requirements
 
@@ -125,6 +125,10 @@ In this assignment, you will create the **Products** module.
 
 1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
 1. When you meet all _Acceptance Criteria_ of this first deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
+    
+</td>
+</tr>
+</table>
 
 #### Acceptance Criteria
 
@@ -136,17 +140,13 @@ The following is the list of acceptance criteria (_AC_) and points for completin
 | 2 | :white_check_mark: Your **Products** module displays your _CSS styles_ correctly. | 20 |
 | 3 | :white_check_mark: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality. | 50 |
 
-</td>
-</tr>
-</table>
+### Second delivery
+
+In this assignment, you will create both the **Cart** and **Login** module.
 
 <table>
 <tr>
 <td>
-
-### Second delivery
-
-In this assignment, you will create both the **Cart** and **Login** module.
 
 #### Requirements
 
@@ -179,6 +179,10 @@ In this assignment, you will create both the **Cart** and **Login** module.
 1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
 1. When you meet all _AC_ of this second deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
 
+</td>
+</tr>
+</table>
+
 #### Acceptance Criteria
 
 The following is the list of acceptance criteria (_AC_) and points for completing your second deliverable:
@@ -194,19 +198,15 @@ The following is the list of acceptance criteria (_AC_) and points for completin
 | 7 | Your **Login** module render correctly the following elements:<br>&nbsp;&nbsp;• The _heading_ with the text "**Welcome to the WizeStore!**".<br>&nbsp;&nbsp;• The _username input_ and its label "**Username**".<br>&nbsp;&nbsp;• The _user password input_ and its label "**Password**".<br>&nbsp;&nbsp;• The "**Login"** _button_. | 15 |
 | 8 | Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
 
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td>
-
 ### Third and last delivery
 
 In this final assignment, you will fetch the **API** and add **Redux Toolkit** to manage the state of your application.
 
 Stay tuned on [**Slack**](https://wizelineacademy.slack.com/archives/C03KCQ0CPDM) because we will send you your **API key** on Friday, July 8th, 2022, so you will be allowed access to the [API](https://wizeline-academy-react-redux-api.netlify.app/).
+
+<table>
+<tr>
+<td>
 
 #### Requirements
 
@@ -218,6 +218,10 @@ Stay tuned on [**Slack**](https://wizelineacademy.slack.com/archives/C03KCQ0CPDM
 1. Allow the user to click the "**Checkout**" button only if there are items in the cart, and when that happens, use createAsyncThunk and your _API Key_ to post an order using the _/orders_ endpoint of this [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/default/post_orders). Show the API response, the error if something goes wrong, or the "**order**"\* and "**message"** if the post is successful.
 1. Deploy your app on **Netlify**, **Firebase**, **Heroku**, **GitHub Pages**, or any other hosting service you prefer.
 1. When you meet all _AC_ of this third deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
+
+</td>
+</tr>
+</table>
 
 #### Acceptance Criteria
 
@@ -243,6 +247,3 @@ The bonus is a plus that helps us know you better and increments your final scor
 | 3         | Add a search bar functionality to the **Products** module.                                                              | 10                       |
 | 4         | Add products to the **Favorites** module.                                                                               | 10                       |
 
-</td>
-</tr>
-</table>
