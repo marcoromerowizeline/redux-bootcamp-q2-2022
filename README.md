@@ -124,17 +124,17 @@ In this assignment, you will create the **Products** module.
         - [x] A _button_ without functionality with the text "**Add to cart"**.
 
 1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
-1. When you meet all _Acceptance Criteria_ (_AC)_ of this first deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
+1. When you meet all _Acceptance Criteria_ of this first deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
 
 #### Acceptance Criteria
 
-The following is the list of _evaluation criteria_ for your first deliverable:
+The following is the list of acceptance criteria (_AC_) and points for completing your first deliverable:
 
-| **Acceptance criteria** | **Description**                                                                                                                                                                                                                                                 | **Points for completed** |
+| **AC** | **Description** | **Points** |
 | :--- | :--- | ---: |
- 1                       | :white_check_mark: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json).                                                                                                             | 30                       |
-| 2                       | :white_check_mark: Your **Products** module displays your _CSS styles_ correctly.                                                                                                                                                                                                  | 20                       |
-| 3                       | :white_check_mark: For each product, the following elements render correctly:<br><p></p>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality.</p> | 50                       |
+ 1 | :white_check_mark: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json). | 30 |
+| 2 | :white_check_mark: Your **Products** module displays your _CSS styles_ correctly. | 20 |
+| 3 | :white_check_mark: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality. | 50 |
 
 </td>
 </tr>
@@ -177,21 +177,21 @@ In this assignment, you will create both the **Cart** and **Login** module.
     1. A _button_ with the text "**Login".**
 1. On the **Login** module, authenticate your user using the **loginApi** function located on `src/utils/api.js`. If the users are not authenticated, redirect them to the **Login** module.
 1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
-1. When you meet all _Acceptance Criteria_ (_AC)_ of this second deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
+1. When you meet all _AC_ of this second deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
 
 #### Acceptance Criteria
 
-The following is the list of _evaluation criteria_ for your second deliverable:
+The following is the list of acceptance criteria (_AC_) and points for completing your second deliverable:
 
-| **Acceptance criteria** | **Description** | **Points for completed** |
+| **AC** | **Description** | **Points** |
 | :--- | :--- | ---: |
 | 1 | Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file. | 10 |
 | 2 | Your **Cart** module displays your _CSS styles_ correctly. | 10 |
-| 3 | <p>For each product, the following elements render correctly:</p><p>A. One _image_ of the product.</p><p>B. The product _name_ and its _label_ "**Product details"**.</p><p>C. The _quantity input_ and its label "**Quantity"**.</p><p>D. The product _price_ and its _label_ "**Price"**.</p><p>E. The _total_ amount and its _label_ "**Total"**.</p><p>F. The "**Remove**" _button_ without functionality.</p> | 15 |
+| 3 | For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_ and its _label_ "**Product details"**.<br>&nbsp;&nbsp;• The _quantity input_ and its label "**Quantity"**.<br>&nbsp;&nbsp;• The product _price_ and its _label_ "**Price"**.<br>&nbsp;&nbsp;• The _total_ amount and its _label_ "**Total"**.<br>&nbsp;&nbsp;• The "**Remove**" _button_ without functionality.| 15 |
 | 4 | The "**Quantity"** _input_ only allows positive numbers and affects the _total_ cost of the product, the total _items_, and the _total cost_ in the "**Summary"** section. | 10 |
-| 5 | <p>For the "**Summary"** section, the following elements render correctly:</p><p>A. The _heading_ with the text "**Summary".**</p><p>B. The _total items_ in the cart and its label "**Items"**.</p><p>C. The _total cost_ of the items in the cart and its label "**Total cost"**.</p><p>D. The "**Checkout"** _button_ without functionality.</p> | 15 |
+| 5 | For the "**Summary"** section, the following elements render correctly:<br>&nbsp;&nbsp;• The _heading_ with the text "**Summary".**<br>&nbsp;&nbsp;• The _total items_ in the cart and its label "**Items"**.<br>&nbsp;&nbsp;• The _total cost_ of the items in the cart and its label "**Total cost"**.<br>&nbsp;&nbsp;• The "**Checkout"** _button_ without functionality. | 15 |
 | 6 | Your **Login** module displays your _CSS styles_ correctly. | 10 |
-| 7 | <p>Your **Login** module render correctly the following elements:</p><p>A. The _heading_ with the text "**Welcome to the WizeStore!**".</p><p>B. The _username input_ and its label "**Username**".</p><p>C. The _user password input_ and its label "**Password**"..</p><p>D. The "**Login"** _button_.</p> | 15 |
+| 7 | Your **Login** module render correctly the following elements:<br>&nbsp;&nbsp;• The _heading_ with the text "**Welcome to the WizeStore!**".<br>&nbsp;&nbsp;• The _username input_ and its label "**Username**".<br>&nbsp;&nbsp;• The _user password input_ and its label "**Password**".<br>&nbsp;&nbsp;• The "**Login"** _button_. | 15 |
 | 8 | Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
 
 </td>
@@ -221,9 +221,9 @@ Stay tuned on [**Slack**](https://wizelineacademy.slack.com/archives/C03KCQ0CPDM
 
 #### Acceptance Criteria
 
-The following is the list of _evaluation criteria_ for your third deliverable:
+The following is the list of acceptance criteria (_AC_) and points for completing your third deliverable:
 
-| **Acceptance criteria** | **Description** | **Points for completed** |
+| **AC** | **Description** | **Points** |
 | :--- | :---- | ---: |
 | 1                       | Your **Products** module fetches the [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/)                                     | 15                       |
 | 2                       | Your project uses **Redux Toolkit** for its global state management.                                                                                  | 25                       |
