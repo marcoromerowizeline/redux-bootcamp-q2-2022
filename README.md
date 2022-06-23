@@ -134,11 +134,15 @@ The following is the list of _evaluation criteria_ for your first deliverable:
 | :--- | :--- | ---: |
  1                       | :white_check_mark: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json).                                                                                                             | 30                       |
 | 2                       | :white_check_mark: Your **Products** module displays your _CSS styles_ correctly.                                                                                                                                                                                                  | 20                       |
-| 3                       | :white_check_mark: For each product, the following elements render correctly:<br><p></p><p>&nbsp;&nbsp;• One _image_ of the product.</p><p>&nbsp;&nbsp;• The product _name_.</p><p>&nbsp;&nbsp;• The first _category_.</p><p>&nbsp;&nbsp;• The product _price_.</p><p>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality.</p> | 50                       |
+| 3                       | :white_check_mark: For each product, the following elements render correctly:<br><p></p>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality.</p> | 50                       |
 
 </td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td>
 
 ### Second delivery
 
@@ -146,50 +150,57 @@ In this assignment, you will create both the **Cart** and **Login** module.
 
 #### Requirements
 
-1. Create a new branch with the name "_feat/deliverable2_" derived from "_main_" on your forked repository.
-1. Create the **Cart** module and fill it with data obtained from the same [mock file](http://public/data/products.json)\*\* used in the first delivery. Just take a few products and add the quantity of one to each.
+1. Create a new branch with the name `feat/deliverable2` derived from `main` on your forked repository.
+1. Create the **Cart** module and fill it with data obtained from the same [mock file](http://public/data/products.json) used in the first delivery. Just take a few products and add the quantity of one to each.
+    Design your _UI_. You can base it on the layout proposed in this [demo](https://redux-shopping-cart-gules.vercel.app/cart), or if you want, implement any other design, but include the following elements:
 
-Design your _UI_. You can base it on the layout proposed in this [demo](https://redux-shopping-cart-gules.vercel.app/cart), or if you want, implement any other design, but include the following elements:
+    1. A _heading_ with the text "**Shopping Cart"**.
+    1. A grid with the products of the cart, and for each product on the grid, show the following elements:
 
-1. A _heading_ with the text "**Shopping Cart"**.
-1. A grid with the products of the cart, and for each product on the grid, show the following elements:
-
-- A _label_ with the text "**Product details"**.
-- At least one _image_ of the product.
-- The product _name_.
-- An _input_ field with a numeric _type_ for the _quantity_ of the product and its label "**Quantity"**.
-- The product _price_ and its label "**Price"**.
-- The _total_ by multiplying the _quantity_ by the product _price._ And its label "**Total"**.
-- A _button_ without functionality with the text "**Remove"**.
-  1. The summary section with the following elements:
-     1. A _heading_ with the text "**Summary"**.
-     1. The _total items_ in the cart and its label "**Items**".
-     1. The _total cost_ of the items in the cart and its label "**Total cost**".
-     1. A _button_ without functionality with the text "**Checkout"**.
+        - [x] A _label_ with the text "**Product details"**.
+        - [x] At least one _image_ of the product.
+        - [x] The product _name_.
+        - [x] An _input_ field with a numeric _type_ for the _quantity_ of the product and its label "**Quantity"**.
+        - [x] The product _price_ and its label "**Price"**.
+        - [x] The _total_ by multiplying the _quantity_ by the product _price._ And its label "**Total"**.
+        - [x] A _button_ without functionality with the text "**Remove"**.
+    1. The summary section with the following elements:
+        - [x] A _heading_ with the text "**Summary"**.
+        - [x] The _total items_ in the cart and its label "**Items**".
+        - [x] The _total cost_ of the items in the cart and its label "**Total cost**".
+        - [x] A _button_ without functionality with the text "**Checkout"**.
 
 1. Create the **Login** module and design your _UI_. You can base it on the layout proposed in this [demo](https://redux-shopping-cart-gules.vercel.app/login), or if you want, implement any other design, but include the following elements:
-   1. A _heading_ with the text "**Welcome to the WizeStore!**".
-   1. An _input_ field with a text _type_ for the username and its label "**Username**".
-   1. An _input_ field with a password _type_ and its label "**Password**".
-   1. A _button_ with the text "**Login".**
-1. On the **Login** module, authenticate your user using the **loginApi** function located on _src/utils/api.js_. If the users are not authenticated, redirect them to the **Login** module.
-1. Deploy your app on **Netlify**, **Firebase**, **Heroku**, **GitHub Pages**, or any other hosting service you prefer.
-1. When you meet all _AC_ of this second deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
+    1. A _heading_ with the text "**Welcome to the WizeStore!**".
+    1. An _input_ field with a text _type_ for the username and its label "**Username**".
+    1. An _input_ field with a password _type_ and its label "**Password**".
+    1. A _button_ with the text "**Login".**
+1. On the **Login** module, authenticate your user using the **loginApi** function located on `src/utils/api.js`. If the users are not authenticated, redirect them to the **Login** module.
+1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
+1. When you meet all _Acceptance Criteria_ (_AC)_ of this second deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
 
 #### Acceptance Criteria
 
 The following is the list of _evaluation criteria_ for your second deliverable:
 
-| **Acceptance criteria** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                    | **Points for completed** |
-| :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------- |
-| 1                       | Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file.                                                                                                                                                                                                                                                                                                             | 10                       |
-| 2                       | Your **Cart** module displays your _CSS styles_ correctly.                                                                                                                                                                                                                                                                                                                                                         | 10                       |
-| 3                       | <p>For each product, the following elements render correctly:</p><p>A. One _image_ of the product.</p><p>B. The product _name_ and its _label_ "**Product details"**.</p><p>C. The _quantity input_ and its label "**Quantity"**.</p><p>D. The product _price_ and its _label_ "**Price"**.</p><p>E. The _total_ amount and its _label_ "**Total"**.</p><p>F. The "**Remove**" _button_ without functionality.</p> | 15                       |
-| 4                       | The "**Quantity"** _input_ only allows positive numbers and affects the \*total*** cost of the product, the total *items\***,** and the _total cost_ in the "**Summary"\*\* section.                                                                                                                                                                                                                               | 10                       |
-| 5                       | <p>For the "**Summary"** section, the following elements render correctly:</p><p>A. The _heading_ with the text "**Summary".**</p><p>B. The _total items_ in the cart and its label "**Items"**.</p><p>C. The _total cost_ of the items in the cart and its label "**Total cost"**.</p><p>D. The "**Checkout"** _button_ without functionality.</p>                                                                | 15                       |
-| 6                       | Your **Login** module displays your _CSS styles_ correctly.                                                                                                                                                                                                                                                                                                                                                        | 10                       |
-| 7                       | <p>Your **Login** module render correctly the following elements:</p><p>A. The _heading_ with the text "**Welcome to the WizeStore!**".</p><p>B. The _username input_ and its label "**Username**".</p><p>C. The _user password input_ and its label "**Password**"..</p><p>D. The "**Login"** _button_.</p>                                                                                                       | 15                       |
-| 8                       | Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated.                                                                                                                                                                                                                                                                                                          | 15                       |
+| **Acceptance criteria** | **Description** | **Points for completed** |
+| :--- | :--- | ---: |
+| 1 | Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file. | 10 |
+| 2 | Your **Cart** module displays your _CSS styles_ correctly. | 10 |
+| 3 | <p>For each product, the following elements render correctly:</p><p>A. One _image_ of the product.</p><p>B. The product _name_ and its _label_ "**Product details"**.</p><p>C. The _quantity input_ and its label "**Quantity"**.</p><p>D. The product _price_ and its _label_ "**Price"**.</p><p>E. The _total_ amount and its _label_ "**Total"**.</p><p>F. The "**Remove**" _button_ without functionality.</p> | 15 |
+| 4 | The "**Quantity"** _input_ only allows positive numbers and affects the _total_ cost of the product, the total _items_, and the _total cost_ in the "**Summary"** section. | 10 |
+| 5 | <p>For the "**Summary"** section, the following elements render correctly:</p><p>A. The _heading_ with the text "**Summary".**</p><p>B. The _total items_ in the cart and its label "**Items"**.</p><p>C. The _total cost_ of the items in the cart and its label "**Total cost"**.</p><p>D. The "**Checkout"** _button_ without functionality.</p> | 15 |
+| 6 | Your **Login** module displays your _CSS styles_ correctly. | 10 |
+| 7 | <p>Your **Login** module render correctly the following elements:</p><p>A. The _heading_ with the text "**Welcome to the WizeStore!**".</p><p>B. The _username input_ and its label "**Username**".</p><p>C. The _user password input_ and its label "**Password**"..</p><p>D. The "**Login"** _button_.</p> | 15 |
+| 8 | Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
 
 ### Third and last delivery
 
@@ -212,8 +223,8 @@ Stay tuned on [**Slack**](https://wizelineacademy.slack.com/archives/C03KCQ0CPDM
 
 The following is the list of _evaluation criteria_ for your third deliverable:
 
-| **Acceptance criteria** | **Description**                                                                                                                                       | **Points for completed** |
-| :---------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------- |
+| **Acceptance criteria** | **Description** | **Points for completed** |
+| :--- | :---- | ---: |
 | 1                       | Your **Products** module fetches the [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/)                                     | 15                       |
 | 2                       | Your project uses **Redux Toolkit** for its global state management.                                                                                  | 25                       |
 | 3                       | On the **Products** module, the **"Add to cart"** _buttons_ allow adding products to the **Cart** module.                                             | 15                       |
@@ -231,3 +242,7 @@ The bonus is a plus that helps us know you better and increments your final scor
 | 2         | Utilize third-party authentication providers for your **Login** module like **Auth0**.                                  | 10                       |
 | 3         | Add a search bar functionality to the **Products** module.                                                              | 10                       |
 | 4         | Add products to the **Favorites** module.                                                                               | 10                       |
+
+</td>
+</tr>
+</table>
