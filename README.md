@@ -136,7 +136,7 @@ The following is the list of acceptance criteria (_AC_) and points for completin
 
 | **AC** | **Description** | **Points** |
 | :--- | :--- | ---: |
- 1 | :ballot_box_with_check: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json). | 30 |
+| 1 | :ballot_box_with_check: Your **Products** module reads data products correctly from this [mock](http://public/data/products.json)[ file](http://public/data/products.json). | 30 |
 | 2 | :ballot_box_with_check: Your **Products** module displays your _CSS styles_ correctly. | 20 |
 | 3 | :ballot_box_with_check: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_.<br>&nbsp;&nbsp;• The first _category_.<br>&nbsp;&nbsp;• The product _price_.<br>&nbsp;&nbsp;• The "**Add to cart**" _button_ without functionality. | 50 |
 
