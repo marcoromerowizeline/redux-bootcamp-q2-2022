@@ -109,7 +109,7 @@ In this assignment, you will create the **Products** module.
 <tr>
 <td>
 
-#### Requirements
+#### Requirements of the first deliverable.
 
 1. Create a new branch with the name `feat/deliverable1` derived from `main` on your forked repository.
 1. Create the **Products** module and fill it with data obtained from this [mock file](http://public/data/products.json).
@@ -130,7 +130,7 @@ In this assignment, you will create the **Products** module.
 </tr>
 </table>
 
-#### Acceptance Criteria
+#### Acceptance criteria for the first deliverable
 
 The following is the list of acceptance criteria (_AC_) and points for completing your first deliverable:
 
@@ -148,7 +148,7 @@ In this assignment, you will create both the **Cart** and **Login** module.
 <tr>
 <td>
 
-#### Requirements
+#### Requirements of the second deliverable
 
 1. Create a new branch with the name `feat/deliverable2` derived from `main` on your forked repository.
 1. Create the **Cart** module and fill it with data obtained from the same [mock file](http://public/data/products.json) used in the first delivery. Just take a few products and add the quantity of one to each.
@@ -183,67 +183,69 @@ In this assignment, you will create both the **Cart** and **Login** module.
 </tr>
 </table>
 
-#### Acceptance Criteria
+#### Acceptance criteria for the second deliverable
 
 The following is the list of acceptance criteria (_AC_) and points for completing your second deliverable:
 
 | **AC** | **Description** | **Points** |
 | :--- | :--- | ---: |
-| 1 | Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file. | 10 |
-| 2 | Your **Cart** module displays your _CSS styles_ correctly. | 10 |
-| 3 | For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_ and its _label_ "**Product details"**.<br>&nbsp;&nbsp;• The _quantity input_ and its label "**Quantity"**.<br>&nbsp;&nbsp;• The product _price_ and its _label_ "**Price"**.<br>&nbsp;&nbsp;• The _total_ amount and its _label_ "**Total"**.<br>&nbsp;&nbsp;• The "**Remove**" _button_ without functionality.| 15 |
-| 4 | The "**Quantity"** _input_ only allows positive numbers and affects the _total_ cost of the product, the total _items_, and the _total cost_ in the "**Summary"** section. | 10 |
-| 5 | For the "**Summary"** section, the following elements render correctly:<br>&nbsp;&nbsp;• The _heading_ with the text "**Summary".**<br>&nbsp;&nbsp;• The _total items_ in the cart and its label "**Items"**.<br>&nbsp;&nbsp;• The _total cost_ of the items in the cart and its label "**Total cost"**.<br>&nbsp;&nbsp;• The "**Checkout"** _button_ without functionality. | 15 |
-| 6 | Your **Login** module displays your _CSS styles_ correctly. | 10 |
-| 7 | Your **Login** module render correctly the following elements:<br>&nbsp;&nbsp;• The _heading_ with the text "**Welcome to the WizeStore!**".<br>&nbsp;&nbsp;• The _username input_ and its label "**Username**".<br>&nbsp;&nbsp;• The _user password input_ and its label "**Password**".<br>&nbsp;&nbsp;• The "**Login"** _button_. | 15 |
-| 8 | Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
+| 1 | :white_check_mark: Your **Cart** module reads products correctly from this [mock](http://public/data/products.json) file. | 10 |
+| 2 | :white_check_mark: Your **Cart** module displays your _CSS styles_ correctly. | 10 |
+| 3 | :white_check_mark: For each product, the following elements render correctly:<br>&nbsp;&nbsp;• One _image_ of the product.<br>&nbsp;&nbsp;• The product _name_ and its _label_ "**Product details"**.<br>&nbsp;&nbsp;• The _quantity input_ and its label "**Quantity"**.<br>&nbsp;&nbsp;• The product _price_ and its _label_ "**Price"**.<br>&nbsp;&nbsp;• The _total_ amount and its _label_ "**Total"**.<br>&nbsp;&nbsp;• The "**Remove**" _button_ without functionality.| 15 |
+| 4 | :white_check_mark: The "**Quantity"** _input_ only allows positive numbers and affects the _total_ cost of the product, the total _items_, and the _total cost_ in the "**Summary"** section. | 10 |
+| 5 | :white_check_mark: For the "**Summary"** section, the following elements render correctly:<br>&nbsp;&nbsp;• The _heading_ with the text "**Summary".**<br>&nbsp;&nbsp;• The _total items_ in the cart and its label "**Items"**.<br>&nbsp;&nbsp;• The _total cost_ of the items in the cart and its label "**Total cost"**.<br>&nbsp;&nbsp;• The "**Checkout"** _button_ without functionality. | 15 |
+| 6 | :white_check_mark: Your **Login** module displays your _CSS styles_ correctly. | 10 |
+| 7 | :white_check_mark: Your **Login** module render correctly the following elements:<br>&nbsp;&nbsp;• The _heading_ with the text "**Welcome to the WizeStore!**".<br>&nbsp;&nbsp;• The _username input_ and its label "**Username**".<br>&nbsp;&nbsp;• The _user password input_ and its label "**Password**".<br>&nbsp;&nbsp;• The "**Login"** _button_. | 15 |
+| 8 | :white_check_mark: Your **Products** and **Cart** modules redirect to the **Login** module if the user is not authenticated. | 15 |
 
 ### Third and last delivery
 
-In this final assignment, you will fetch the **API** and add **Redux Toolkit** to manage the state of your application.
+In this final assignment, you will fetch the [**API**](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/) and add [**Redux Toolkit**](https://redux-toolkit.js.org/introduction/getting-started) to manage the state of your application.
+
 
 Stay tuned on [**Slack**](https://wizelineacademy.slack.com/archives/C03KCQ0CPDM) because we will send you your **API key** on Friday, July 8th, 2022, so you will be allowed access to the [API](https://wizeline-academy-react-redux-api.netlify.app/).
+
 
 <table>
 <tr>
 <td>
 
-#### Requirements
+#### Requirements of the third deliverable
 
-1. Create a new branch with the name "_feat/deliverable3_" derived from "_main_" on your forked repository.
-1. Add **Redux Toolkit** to your project to simplify your _store_ setup, your _reducers_, and your _update logic_.
-1. On the **Products** module, instead of reading from the **mock file**, now use createAsyncThunk and your _API Key to_ fetch data asynchronously* from the */products* endpoint of this [*API\*](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/).
+1. Create a new branch with the name `feat/deliverable3` derived from `main` on your forked repository.
+1. Add [**Redux Toolkit**](https://redux-toolkit.js.org/introduction/getting-started) to your project to simplify your _store_ setup, your _reducers_, and your _update logic_.
+1. On the **Products** module, instead of reading from the **mock file**, now use `createAsyncThunk` and your _API Key_ to fetch data _asynchronously_ from the `/products` endpoint of this [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/).
 1. Save products and quantities in the **Redux** _store_ when the user clicks on the "**Add to cart**" buttons in the **Products** module.
 1. Read those products and quantities from the **Redux** _store_ and allow updates and deletes when the user interacts with the "**Quantity"** _input_ and the "**Remove"** _button_ in the **Cart** module.
-1. Allow the user to click the "**Checkout**" button only if there are items in the cart, and when that happens, use createAsyncThunk and your _API Key_ to post an order using the _/orders_ endpoint of this [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/default/post_orders). Show the API response, the error if something goes wrong, or the "**order**"\* and "**message"** if the post is successful.
-1. Deploy your app on **Netlify**, **Firebase**, **Heroku**, **GitHub Pages**, or any other hosting service you prefer.
+1. Allow the user to click the "**Checkout**" button only if there are items in the cart, and when that happens, use `createAsyncThunk` and your _API Key_ to post an order using the `/orders` endpoint of this [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/default/post_orders). Show the _API_ response, the error if something goes wrong, or the "**order**" and "**message"** if the post is successful.
+1. Deploy your app on [**Netlify**](https://www.netlify.com/), [**Firebase**](https://firebase.google.com/products-build), [**Heroku**](https://www.heroku.com/), [**GitHub Pages**](https://pages.github.com/), or any other hosting service you prefer.
 1. When you meet all _AC_ of this third deliverable, fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeXxiqrN2BjLTVF79xI6OdCedGgaw_6pxWOrNEoxDkEaExEWA/viewform) and add the _URL_ of your _PR_ and the _URL_ of your deployment.
 
 </td>
 </tr>
 </table>
 
-#### Acceptance Criteria
+#### Acceptance criteria for the third deliverable
 
 The following is the list of acceptance criteria (_AC_) and points for completing your third deliverable:
 
 | **AC** | **Description** | **Points** |
 | :--- | :---- | ---: |
-| 1                       | Your **Products** module fetches the [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/)                                     | 15                       |
-| 2                       | Your project uses **Redux Toolkit** for its global state management.                                                                                  | 25                       |
-| 3                       | On the **Products** module, the **"Add to cart"** _buttons_ allow adding products to the **Cart** module.                                             | 15                       |
-| 4                       | On the **Cart** module, the "**Quantity"** _input_ updates the **Redux** _store_ and affects the totals of that product and the "**Summary**" totals. | 15                       |
-| 5                       | On the **Cart** module, the "**Remove"** _buttons_ allow removing products from the **Cart** module and affect the "**Summary"** totals.              | 15                       |
-| 6                       | On the **Cart** module, the "**Checkout"** _button_ displays the _API_ response on another page if there are items in the cart.                       | 15                       |
+| 1 | :white_check_mark: Your **Products** module fetches the [API](https://62ace26a720b29256841ed36--cheery-quokka-c3476d.netlify.app/#/) | 15 |
+| 2 | :white_check_mark: Your project uses **Redux Toolkit** for its global state management. | 25 |
+| 3 | :white_check_mark: On the **Products** module, the **"Add to cart"** _buttons_ allow adding products to the **Cart** module. | 15 |
+| 4 | :white_check_mark: On the **Cart** module, the "**Quantity"** _input_ updates the **Redux** _store_ and affects the totals of that product and the "**Summary**" totals. | 15 |
+| 5 | :white_check_mark: On the **Cart** module, the "**Remove"** _buttons_ allow removing products from the **Cart** module and affect the "**Summary"** totals. | 15 |
+| 6 | :white_check_mark: On the **Cart** module, the "**Checkout"** _button_ displays the _API_ response on another page if there are items in the cart. | 15 |
 
 ### Bonus
 
 The bonus is a plus that helps us know you better and increments your final score. Consider the following:
 
-| **Bonus** | **Description**                                                                                                         | **Points for completed** |
-| :-------- | :---------------------------------------------------------------------------------------------------------------------- | :----------------------- |
-| 1         | Use unit testing to validate your components using **Jest**, **React Testing Library**, and/or **Mock Service Worker**. | 10                       |
-| 2         | Utilize third-party authentication providers for your **Login** module like **Auth0**.                                  | 10                       |
-| 3         | Add a search bar functionality to the **Products** module.                                                              | 10                       |
-| 4         | Add products to the **Favorites** module.                                                                               | 10                       |
+| **Bonus** | **Description** | **Points** |
+| :--- | :--- | ---: |
+| 1 | :ballot_box_with_check: Use _unit testing_ to validate your components using [**Jest**](https://jestjs.io/docs/getting-started), [**React Testing Library**](https://testing-library.com/docs/), and/or [**Mock Service Worker**](https://mswjs.io/). | 10 |
+| 2 | :ballot_box_with_check: Utilize third-party authentication providers for your **Login** module like [**Auth0**](https://auth0.com/docs/). | 10 |
+| 3 | :ballot_box_with_check: Add a _search bar_ functionality to the **Products** module. | 10 |
+| 4 | :ballot_box_with_check: Add products to the **Favorites** module. | 10 |
 
